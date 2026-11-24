@@ -1,0 +1,642 @@
+# Reading pref.tcl
+# do ARM32_Lab9_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying D:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+D:/ARM\ sigle\ 32bit/ARM32_Lab9/rtl/common {D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/alu.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:06:04 on Nov 23,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ARM sigle 32bit/ARM32_Lab9/rtl/common" D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 23:06:04 on Nov 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ARM\ sigle\ 32bit/ARM32_Lab9/rtl/common {D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/dmem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:06:05 on Nov 23,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ARM sigle 32bit/ARM32_Lab9/rtl/common" D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/dmem.sv 
+# -- Compiling module dmem
+# 
+# Top level modules:
+# 	dmem
+# End time: 23:06:05 on Nov 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ARM\ sigle\ 32bit/ARM32_Lab9/rtl/common {D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/flopenr.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:06:05 on Nov 23,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ARM sigle 32bit/ARM32_Lab9/rtl/common" D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/flopenr.sv 
+# -- Compiling module flopenr
+# 
+# Top level modules:
+# 	flopenr
+# End time: 23:06:05 on Nov 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ARM\ sigle\ 32bit/ARM32_Lab9/rtl/common {D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/flopr.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:06:05 on Nov 23,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ARM sigle 32bit/ARM32_Lab9/rtl/common" D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/flopr.sv 
+# -- Compiling module flopr
+# 
+# Top level modules:
+# 	flopr
+# End time: 23:06:05 on Nov 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ARM\ sigle\ 32bit/ARM32_Lab9/rtl/common {D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/imem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:06:05 on Nov 23,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ARM sigle 32bit/ARM32_Lab9/rtl/common" D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/imem.sv 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 23:06:06 on Nov 23,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ARM\ sigle\ 32bit/ARM32_Lab9/rtl/common {D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/mux2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:06:06 on Nov 23,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ARM sigle 32bit/ARM32_Lab9/rtl/common" D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/mux2.sv 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 23:06:06 on Nov 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ARM\ sigle\ 32bit/ARM32_Lab9/rtl/common {D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/regfile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:06:06 on Nov 23,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ARM sigle 32bit/ARM32_Lab9/rtl/common" D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/regfile.sv 
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# End time: 23:06:06 on Nov 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ARM\ sigle\ 32bit/ARM32_Lab9/rtl/processor {D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/arm.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:06:06 on Nov 23,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor" D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/arm.sv 
+# -- Compiling module arm
+# 
+# Top level modules:
+# 	arm
+# End time: 23:06:06 on Nov 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ARM\ sigle\ 32bit/ARM32_Lab9/rtl/processor {D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/condcheck.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:06:07 on Nov 23,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor" D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/condcheck.sv 
+# -- Compiling module condcheck
+# 
+# Top level modules:
+# 	condcheck
+# End time: 23:06:07 on Nov 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ARM\ sigle\ 32bit/ARM32_Lab9/rtl/processor {D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/condlogic.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:06:07 on Nov 23,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor" D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/condlogic.sv 
+# -- Compiling module condlogic
+# 
+# Top level modules:
+# 	condlogic
+# End time: 23:06:07 on Nov 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ARM\ sigle\ 32bit/ARM32_Lab9/rtl/processor {D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/controller.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:06:07 on Nov 23,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor" D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/controller.sv 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 23:06:07 on Nov 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ARM\ sigle\ 32bit/ARM32_Lab9/rtl/processor {D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/datapath.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:06:08 on Nov 23,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor" D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/datapath.sv 
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# End time: 23:06:08 on Nov 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ARM\ sigle\ 32bit/ARM32_Lab9/rtl/processor {D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/decoder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:06:08 on Nov 23,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor" D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/decoder.sv 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 23:06:08 on Nov 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ARM\ sigle\ 32bit/ARM32_Lab9/rtl/processor {D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/extend.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:06:08 on Nov 23,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor" D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/extend.sv 
+# -- Compiling module extend
+# 
+# Top level modules:
+# 	extend
+# End time: 23:06:08 on Nov 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ARM\ sigle\ 32bit/ARM32_Lab9/rtl {D:/ARM sigle 32bit/ARM32_Lab9/rtl/top.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:06:09 on Nov 23,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ARM sigle 32bit/ARM32_Lab9/rtl" D:/ARM sigle 32bit/ARM32_Lab9/rtl/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:06:09 on Nov 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+D:/ARM\ sigle\ 32bit/ARM32_Lab9/sim {D:/ARM sigle 32bit/ARM32_Lab9/sim/tb_top.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:06:09 on Nov 23,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ARM sigle 32bit/ARM32_Lab9/sim" D:/ARM sigle 32bit/ARM32_Lab9/sim/tb_top.sv 
+# -- Compiling module tb_top
+# 
+# Top level modules:
+# 	tb_top
+# End time: 23:06:09 on Nov 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  tb_top
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" tb_top 
+# Start time: 23:06:09 on Nov 23,2026
+# Loading sv_std.std
+# Loading work.tb_top
+# Loading work.top
+# Loading work.arm
+# Loading work.controller
+# Loading work.decoder
+# Loading work.condlogic
+# Loading work.condcheck
+# Loading work.flopenr
+# Loading work.datapath
+# Loading work.mux2
+# Loading work.flopr
+# Loading work.regfile
+# Loading work.extend
+# Loading work.alu
+# Loading work.imem
+# Loading work.dmem
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: (vsim-7) Failed to open readmem file "program/memfile.dat" in read mode.
+# No such file or directory. (errno = ENOENT)    : D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/imem.sv(7)
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/dut/imem_i
+# ** Fatal: step=0 RegWrite: got 00000000 expected 00000001
+#    Time: 25 ns  Scope: tb_top.check_word File: D:/ARM sigle 32bit/ARM32_Lab9/sim/tb_top.sv Line: 22
+# ** Note: $finish    : D:/ARM sigle 32bit/ARM32_Lab9/sim/tb_top.sv(22)
+#    Time: 25 ns  Iteration: 1  Instance: /tb_top
+# 1
+# Break in Task check_word at D:/ARM sigle 32bit/ARM32_Lab9/sim/tb_top.sv line 22
+cd {D:/ARM sigle 32bit/ARM32_Lab9}
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+do run.do
+# Cannot open macro file: run.do
+quit -sim
+cd {D:/ARM sigle 32bit/ARM32_Lab9}
+# End time: 23:08:39 on Nov 23,2026, Elapsed time: 0:02:30
+# Errors: 1, Warnings: 1
+# reading D:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini
+do run.do
+# tb_top
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Copying D:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# rtl/common/alu.sv rtl/common/dmem.sv rtl/common/flopenr.sv rtl/common/flopr.sv rtl/common/imem.sv rtl/common/mux2.sv rtl/common/regfile.sv rtl/processor/arm.sv rtl/processor/condcheck.sv rtl/processor/condlogic.sv rtl/processor/controller.sv rtl/processor/datapath.sv rtl/processor/decoder.sv rtl/processor/extend.sv rtl/top.sv sim/tb_top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:08:41 on Nov 23,2026
+# vlog -reportprogress 300 -sv rtl/common/alu.sv rtl/common/dmem.sv rtl/common/flopenr.sv rtl/common/flopr.sv rtl/common/imem.sv rtl/common/mux2.sv rtl/common/regfile.sv rtl/processor/arm.sv rtl/processor/condcheck.sv rtl/processor/condlogic.sv rtl/processor/controller.sv rtl/processor/datapath.sv rtl/processor/decoder.sv rtl/processor/extend.sv rtl/top.sv sim/tb_top.sv 
+# -- Compiling module alu
+# -- Compiling module dmem
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module imem
+# -- Compiling module mux2
+# -- Compiling module regfile
+# -- Compiling module arm
+# -- Compiling module condcheck
+# -- Compiling module condlogic
+# -- Compiling module controller
+# -- Compiling module datapath
+# -- Compiling module decoder
+# -- Compiling module extend
+# -- Compiling module top
+# -- Compiling module tb_top
+# 
+# Top level modules:
+# 	tb_top
+# End time: 23:08:41 on Nov 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" -onfinish stop work.tb_top 
+# Start time: 23:08:41 on Nov 23,2026
+# Loading sv_std.std
+# Loading work.tb_top
+# Loading work.top
+# Loading work.arm
+# Loading work.controller
+# Loading work.decoder
+# Loading work.condlogic
+# Loading work.condcheck
+# Loading work.flopenr
+# Loading work.datapath
+# Loading work.mux2
+# Loading work.flopr
+# Loading work.regfile
+# Loading work.extend
+# Loading work.alu
+# Loading work.imem
+# Loading work.dmem
+# PC=12  DMEM[100] <- 8
+# PC=24  DMEM[104] <- 3
+# PASS tb_top: 100 <- 8, 104 <- 3, PC loops at 28
+# ** Note: $finish    : sim/tb_top.sv(58)
+#    Time: 116 ns  Iteration: 0  Instance: /tb_top
+# Break in Module tb_top at sim/tb_top.sv line 58
+# 0 ps
+# 121800 ps
+quit -sim
+do run.do tb_units
+# End time: 23:11:51 on Nov 23,2026, Elapsed time: 0:03:10
+# Errors: 0, Warnings: 0
+# tb_top
+# tb_units
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying modelsim.ini
+# rtl/common/alu.sv rtl/common/dmem.sv rtl/common/flopenr.sv rtl/common/flopr.sv rtl/common/imem.sv rtl/common/mux2.sv rtl/common/regfile.sv rtl/processor/arm.sv rtl/processor/condcheck.sv rtl/processor/condlogic.sv rtl/processor/controller.sv rtl/processor/datapath.sv rtl/processor/decoder.sv rtl/processor/extend.sv rtl/top.sv sim/tb_units.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:11:51 on Nov 23,2026
+# vlog -reportprogress 300 -sv rtl/common/alu.sv rtl/common/dmem.sv rtl/common/flopenr.sv rtl/common/flopr.sv rtl/common/imem.sv rtl/common/mux2.sv rtl/common/regfile.sv rtl/processor/arm.sv rtl/processor/condcheck.sv rtl/processor/condlogic.sv rtl/processor/controller.sv rtl/processor/datapath.sv rtl/processor/decoder.sv rtl/processor/extend.sv rtl/top.sv sim/tb_units.sv 
+# -- Compiling module alu
+# -- Compiling module dmem
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module imem
+# -- Compiling module mux2
+# -- Compiling module regfile
+# -- Compiling module arm
+# -- Compiling module condcheck
+# -- Compiling module condlogic
+# -- Compiling module controller
+# -- Compiling module datapath
+# -- Compiling module decoder
+# -- Compiling module extend
+# -- Compiling module top
+# -- Compiling module tb_units
+# 
+# Top level modules:
+# 	top
+# 	tb_units
+# End time: 23:11:51 on Nov 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" -onfinish stop work.tb_units 
+# Start time: 23:11:51 on Nov 23,2026
+# Loading sv_std.std
+# Loading work.tb_units
+# Loading work.alu
+# Loading work.condcheck
+# PASS tb_units: ALU arithmetic/logic and 256 condition/flags combinations
+# ** Note: $finish    : sim/tb_units.sv(53)
+#    Time: 266 ns  Iteration: 0  Instance: /tb_units
+# Break in Module tb_units at sim/tb_units.sv line 53
+# 0 ps
+# 279300 ps
+quit -sim
+do run.do tb_datapath
+# End time: 23:13:08 on Nov 23,2026, Elapsed time: 0:01:17
+# Errors: 0, Warnings: 0
+# tb_top
+# tb_datapath
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying modelsim.ini
+# rtl/common/alu.sv rtl/common/dmem.sv rtl/common/flopenr.sv rtl/common/flopr.sv rtl/common/imem.sv rtl/common/mux2.sv rtl/common/regfile.sv rtl/processor/arm.sv rtl/processor/condcheck.sv rtl/processor/condlogic.sv rtl/processor/controller.sv rtl/processor/datapath.sv rtl/processor/decoder.sv rtl/processor/extend.sv rtl/top.sv sim/tb_datapath.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:13:08 on Nov 23,2026
+# vlog -reportprogress 300 -sv rtl/common/alu.sv rtl/common/dmem.sv rtl/common/flopenr.sv rtl/common/flopr.sv rtl/common/imem.sv rtl/common/mux2.sv rtl/common/regfile.sv rtl/processor/arm.sv rtl/processor/condcheck.sv rtl/processor/condlogic.sv rtl/processor/controller.sv rtl/processor/datapath.sv rtl/processor/decoder.sv rtl/processor/extend.sv rtl/top.sv sim/tb_datapath.sv 
+# -- Compiling module alu
+# -- Compiling module dmem
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module imem
+# -- Compiling module mux2
+# -- Compiling module regfile
+# -- Compiling module arm
+# -- Compiling module condcheck
+# -- Compiling module condlogic
+# -- Compiling module controller
+# -- Compiling module datapath
+# -- Compiling module decoder
+# -- Compiling module extend
+# -- Compiling module top
+# -- Compiling module tb_datapath
+# 
+# Top level modules:
+# 	top
+# 	tb_datapath
+# End time: 23:13:08 on Nov 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" -onfinish stop work.tb_datapath 
+# Start time: 23:13:09 on Nov 23,2026
+# Loading sv_std.std
+# Loading work.tb_datapath
+# Loading work.datapath
+# Loading work.mux2
+# Loading work.flopr
+# Loading work.regfile
+# Loading work.extend
+# Loading work.alu
+# PASS tb_datapath: independent PC, DP register/immediate, LDR, STR, B
+# ** Note: $finish    : sim/tb_datapath.sv(44)
+#    Time: 34 ns  Iteration: 0  Instance: /tb_datapath
+# Break in Module tb_datapath at sim/tb_datapath.sv line 44
+# 0 ps
+# 35700 ps
+quit -sim
+do run.do tb_datapath
+# End time: 23:14:47 on Nov 23,2026, Elapsed time: 0:01:38
+# Errors: 0, Warnings: 0
+# tb_top
+# tb_datapath
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying modelsim.ini
+# rtl/common/alu.sv rtl/common/dmem.sv rtl/common/flopenr.sv rtl/common/flopr.sv rtl/common/imem.sv rtl/common/mux2.sv rtl/common/regfile.sv rtl/processor/arm.sv rtl/processor/condcheck.sv rtl/processor/condlogic.sv rtl/processor/controller.sv rtl/processor/datapath.sv rtl/processor/decoder.sv rtl/processor/extend.sv rtl/top.sv sim/tb_datapath.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:14:47 on Nov 23,2026
+# vlog -reportprogress 300 -sv rtl/common/alu.sv rtl/common/dmem.sv rtl/common/flopenr.sv rtl/common/flopr.sv rtl/common/imem.sv rtl/common/mux2.sv rtl/common/regfile.sv rtl/processor/arm.sv rtl/processor/condcheck.sv rtl/processor/condlogic.sv rtl/processor/controller.sv rtl/processor/datapath.sv rtl/processor/decoder.sv rtl/processor/extend.sv rtl/top.sv sim/tb_datapath.sv 
+# -- Compiling module alu
+# -- Compiling module dmem
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module imem
+# -- Compiling module mux2
+# -- Compiling module regfile
+# -- Compiling module arm
+# -- Compiling module condcheck
+# -- Compiling module condlogic
+# -- Compiling module controller
+# -- Compiling module datapath
+# -- Compiling module decoder
+# -- Compiling module extend
+# -- Compiling module top
+# -- Compiling module tb_datapath
+# 
+# Top level modules:
+# 	top
+# 	tb_datapath
+# End time: 23:14:47 on Nov 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" -onfinish stop work.tb_datapath 
+# Start time: 23:14:47 on Nov 23,2026
+# Loading sv_std.std
+# Loading work.tb_datapath
+# Loading work.datapath
+# Loading work.mux2
+# Loading work.flopr
+# Loading work.regfile
+# Loading work.extend
+# Loading work.alu
+# PASS tb_datapath: independent PC, DP register/immediate, LDR, STR, B
+# ** Note: $finish    : sim/tb_datapath.sv(44)
+#    Time: 34 ns  Iteration: 0  Instance: /tb_datapath
+# Break in Module tb_datapath at sim/tb_datapath.sv line 44
+# 0 ps
+# 35700 ps
+quit -sim
+do run.do tb_control_cpu
+# End time: 23:16:51 on Nov 23,2026, Elapsed time: 0:02:04
+# Errors: 0, Warnings: 0
+# tb_top
+# tb_control_cpu
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying modelsim.ini
+# rtl/common/alu.sv rtl/common/dmem.sv rtl/common/flopenr.sv rtl/common/flopr.sv rtl/common/imem.sv rtl/common/mux2.sv rtl/common/regfile.sv rtl/processor/arm.sv rtl/processor/condcheck.sv rtl/processor/condlogic.sv rtl/processor/controller.sv rtl/processor/datapath.sv rtl/processor/decoder.sv rtl/processor/extend.sv rtl/top.sv sim/tb_control_cpu.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:16:52 on Nov 23,2026
+# vlog -reportprogress 300 -sv rtl/common/alu.sv rtl/common/dmem.sv rtl/common/flopenr.sv rtl/common/flopr.sv rtl/common/imem.sv rtl/common/mux2.sv rtl/common/regfile.sv rtl/processor/arm.sv rtl/processor/condcheck.sv rtl/processor/condlogic.sv rtl/processor/controller.sv rtl/processor/datapath.sv rtl/processor/decoder.sv rtl/processor/extend.sv rtl/top.sv sim/tb_control_cpu.sv 
+# -- Compiling module alu
+# -- Compiling module dmem
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module imem
+# -- Compiling module mux2
+# -- Compiling module regfile
+# -- Compiling module arm
+# -- Compiling module condcheck
+# -- Compiling module condlogic
+# -- Compiling module controller
+# -- Compiling module datapath
+# -- Compiling module decoder
+# -- Compiling module extend
+# -- Compiling module top
+# -- Compiling module tb_control_cpu
+# 
+# Top level modules:
+# 	tb_control_cpu
+# End time: 23:16:52 on Nov 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" -onfinish stop work.tb_control_cpu 
+# Start time: 23:16:52 on Nov 23,2026
+# Loading sv_std.std
+# Loading work.tb_control_cpu
+# Loading work.top
+# Loading work.arm
+# Loading work.controller
+# Loading work.decoder
+# Loading work.condlogic
+# Loading work.condcheck
+# Loading work.flopenr
+# Loading work.datapath
+# Loading work.mux2
+# Loading work.flopr
+# Loading work.regfile
+# Loading work.extend
+# Loading work.alu
+# Loading work.imem
+# Loading work.dmem
+# PASS tb_control_cpu: conditions, flags, branch, PC writes, unsupported encodings
+# ** Note: $finish    : sim/tb_control_cpu.sv(45)
+#    Time: 226 ns  Iteration: 0  Instance: /tb_control_cpu
+# Break in Module tb_control_cpu at sim/tb_control_cpu.sv line 45
+# 0 ps
+# 237300 ps
+quit -sim; do run.do tb_units
+# End time: 23:42:35 on Nov 23,2026, Elapsed time: 0:25:43
+# Errors: 0, Warnings: 0
+# tb_top
+# tb_units
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying modelsim.ini
+# rtl/common/alu.sv rtl/common/dmem.sv rtl/common/flopenr.sv rtl/common/flopr.sv rtl/common/imem.sv rtl/common/mux2.sv rtl/common/regfile.sv rtl/processor/arm.sv rtl/processor/condcheck.sv rtl/processor/condlogic.sv rtl/processor/controller.sv rtl/processor/datapath.sv rtl/processor/decoder.sv rtl/processor/extend.sv rtl/top.sv sim/tb_units.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:42:35 on Nov 23,2026
+# vlog -reportprogress 300 -sv rtl/common/alu.sv rtl/common/dmem.sv rtl/common/flopenr.sv rtl/common/flopr.sv rtl/common/imem.sv rtl/common/mux2.sv rtl/common/regfile.sv rtl/processor/arm.sv rtl/processor/condcheck.sv rtl/processor/condlogic.sv rtl/processor/controller.sv rtl/processor/datapath.sv rtl/processor/decoder.sv rtl/processor/extend.sv rtl/top.sv sim/tb_units.sv 
+# -- Compiling module alu
+# -- Compiling module dmem
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module imem
+# -- Compiling module mux2
+# -- Compiling module regfile
+# -- Compiling module arm
+# -- Compiling module condcheck
+# -- Compiling module condlogic
+# -- Compiling module controller
+# -- Compiling module datapath
+# -- Compiling module decoder
+# -- Compiling module extend
+# -- Compiling module top
+# -- Compiling module tb_units
+# 
+# Top level modules:
+# 	top
+# 	tb_units
+# End time: 23:42:35 on Nov 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" -onfinish stop work.tb_units 
+# Start time: 23:42:35 on Nov 23,2026
+# Loading sv_std.std
+# Loading work.tb_units
+# Loading work.alu
+# Loading work.condcheck
+# PASS tb_units: ALU arithmetic/logic and 256 condition/flags combinations
+# ** Note: $finish    : sim/tb_units.sv(53)
+#    Time: 266 ns  Iteration: 0  Instance: /tb_units
+# Break in Module tb_units at sim/tb_units.sv line 53
+# 0 ps
+# 279300 ps
+quit -sim; do run.do tb_datapath
+# End time: 23:42:55 on Nov 23,2026, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 0
+# tb_top
+# tb_datapath
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying modelsim.ini
+# rtl/common/alu.sv rtl/common/dmem.sv rtl/common/flopenr.sv rtl/common/flopr.sv rtl/common/imem.sv rtl/common/mux2.sv rtl/common/regfile.sv rtl/processor/arm.sv rtl/processor/condcheck.sv rtl/processor/condlogic.sv rtl/processor/controller.sv rtl/processor/datapath.sv rtl/processor/decoder.sv rtl/processor/extend.sv rtl/top.sv sim/tb_datapath.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:42:55 on Nov 23,2026
+# vlog -reportprogress 300 -sv rtl/common/alu.sv rtl/common/dmem.sv rtl/common/flopenr.sv rtl/common/flopr.sv rtl/common/imem.sv rtl/common/mux2.sv rtl/common/regfile.sv rtl/processor/arm.sv rtl/processor/condcheck.sv rtl/processor/condlogic.sv rtl/processor/controller.sv rtl/processor/datapath.sv rtl/processor/decoder.sv rtl/processor/extend.sv rtl/top.sv sim/tb_datapath.sv 
+# -- Compiling module alu
+# -- Compiling module dmem
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module imem
+# -- Compiling module mux2
+# -- Compiling module regfile
+# -- Compiling module arm
+# -- Compiling module condcheck
+# -- Compiling module condlogic
+# -- Compiling module controller
+# -- Compiling module datapath
+# -- Compiling module decoder
+# -- Compiling module extend
+# -- Compiling module top
+# -- Compiling module tb_datapath
+# 
+# Top level modules:
+# 	top
+# 	tb_datapath
+# End time: 23:42:56 on Nov 23,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" -onfinish stop work.tb_datapath 
+# Start time: 23:42:56 on Nov 23,2026
+# Loading sv_std.std
+# Loading work.tb_datapath
+# Loading work.datapath
+# Loading work.mux2
+# Loading work.flopr
+# Loading work.regfile
+# Loading work.extend
+# Loading work.alu
+# PASS tb_datapath: independent PC, DP register/immediate, LDR, STR, B
+# ** Note: $finish    : sim/tb_datapath.sv(44)
+#    Time: 34 ns  Iteration: 0  Instance: /tb_datapath
+# Break in Module tb_datapath at sim/tb_datapath.sv line 44
+# 0 ps
+# 35700 ps
+quit -sim; do run.do tb_control_cpu
+# End time: 23:43:19 on Nov 23,2026, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 0
+# tb_top
+# tb_control_cpu
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying modelsim.ini
+# rtl/common/alu.sv rtl/common/dmem.sv rtl/common/flopenr.sv rtl/common/flopr.sv rtl/common/imem.sv rtl/common/mux2.sv rtl/common/regfile.sv rtl/processor/arm.sv rtl/processor/condcheck.sv rtl/processor/condlogic.sv rtl/processor/controller.sv rtl/processor/datapath.sv rtl/processor/decoder.sv rtl/processor/extend.sv rtl/top.sv sim/tb_control_cpu.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:43:19 on Nov 23,2026
+# vlog -reportprogress 300 -sv rtl/common/alu.sv rtl/common/dmem.sv rtl/common/flopenr.sv rtl/common/flopr.sv rtl/common/imem.sv rtl/common/mux2.sv rtl/common/regfile.sv rtl/processor/arm.sv rtl/processor/condcheck.sv rtl/processor/condlogic.sv rtl/processor/controller.sv rtl/processor/datapath.sv rtl/processor/decoder.sv rtl/processor/extend.sv rtl/top.sv sim/tb_control_cpu.sv 
+# -- Compiling module alu
+# -- Compiling module dmem
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module imem
+# -- Compiling module mux2
+# -- Compiling module regfile
+# -- Compiling module arm
+# -- Compiling module condcheck
+# -- Compiling module condlogic
+# -- Compiling module controller
+# -- Compiling module datapath
+# -- Compiling module decoder
+# -- Compiling module extend
+# -- Compiling module top
+# -- Compiling module tb_control_cpu
+# 
+# Top level modules:
+# 	tb_control_cpu
+# End time: 23:43:19 on Nov 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" -onfinish stop work.tb_control_cpu 
+# Start time: 23:43:19 on Nov 23,2026
+# Loading sv_std.std
+# Loading work.tb_control_cpu
+# Loading work.top
+# Loading work.arm
+# Loading work.controller
+# Loading work.decoder
+# Loading work.condlogic
+# Loading work.condcheck
+# Loading work.flopenr
+# Loading work.datapath
+# Loading work.mux2
+# Loading work.flopr
+# Loading work.regfile
+# Loading work.extend
+# Loading work.alu
+# Loading work.imem
+# Loading work.dmem
+# PASS tb_control_cpu: conditions, flags, branch, PC writes, unsupported encodings
+# ** Note: $finish    : sim/tb_control_cpu.sv(45)
+#    Time: 226 ns  Iteration: 0  Instance: /tb_control_cpu
+# Break in Module tb_control_cpu at sim/tb_control_cpu.sv line 45
+# 0 ps
+# 237300 ps
+# End time: 23:45:50 on Nov 23,2026, Elapsed time: 0:02:31
+# Errors: 0, Warnings: 0

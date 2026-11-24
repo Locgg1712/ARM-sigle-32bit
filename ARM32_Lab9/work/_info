@@ -1,0 +1,486 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/ARM sigle 32bit/ARM32_Lab9
+valu
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1795452199
+!i10b 1
+!s100 :>0>L6C@HH^hG:P[l]`Zj3
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IEH69BT]C1VFel9_FdnCX?2
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+Z5 w1795257116
+8rtl/common/alu.sv
+Frtl/common/alu.sv
+!i122 7
+L0 1 24
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1795452199.000000
+!s107 sim/tb_control_cpu.sv|rtl/top.sv|rtl/processor/extend.sv|rtl/processor/decoder.sv|rtl/processor/datapath.sv|rtl/processor/controller.sv|rtl/processor/condlogic.sv|rtl/processor/condcheck.sv|rtl/processor/arm.sv|rtl/common/regfile.sv|rtl/common/mux2.sv|rtl/common/imem.sv|rtl/common/flopr.sv|rtl/common/flopenr.sv|rtl/common/dmem.sv|rtl/common/alu.sv|
+Z8 !s90 -reportprogress|300|-sv|rtl/common/alu.sv|rtl/common/dmem.sv|rtl/common/flopenr.sv|rtl/common/flopr.sv|rtl/common/imem.sv|rtl/common/mux2.sv|rtl/common/regfile.sv|rtl/processor/arm.sv|rtl/processor/condcheck.sv|rtl/processor/condlogic.sv|rtl/processor/controller.sv|rtl/processor/datapath.sv|rtl/processor/decoder.sv|rtl/processor/extend.sv|rtl/top.sv|sim/tb_control_cpu.sv|
+!i113 1
+o-sv
+Z9 tCvgOpt 0
+varm
+R1
+R2
+!i10b 1
+!s100 Ul0j]`;zLL?<[8XDoZV=l2
+R3
+I=MV;gN[`AffMJf`jY5Y0d0
+R4
+S1
+R0
+R5
+8rtl/processor/arm.sv
+Frtl/processor/arm.sv
+!i122 7
+Z10 L0 1 18
+R6
+r1
+!s85 0
+31
+R7
+Z11 !s107 sim/tb_control_cpu.sv|rtl/top.sv|rtl/processor/extend.sv|rtl/processor/decoder.sv|rtl/processor/datapath.sv|rtl/processor/controller.sv|rtl/processor/condlogic.sv|rtl/processor/condcheck.sv|rtl/processor/arm.sv|rtl/common/regfile.sv|rtl/common/mux2.sv|rtl/common/imem.sv|rtl/common/flopr.sv|rtl/common/flopenr.sv|rtl/common/dmem.sv|rtl/common/alu.sv|
+R8
+!i113 1
+o-sv
+R9
+vcondcheck
+R1
+R2
+!i10b 1
+!s100 ZQ]SQRl?ZDi?OMcblWgG>0
+R3
+IczG_NaSPCGDlkOYIO^1JN2
+R4
+S1
+R0
+R5
+8rtl/processor/condcheck.sv
+Frtl/processor/condcheck.sv
+!i122 7
+Z12 L0 1 27
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 1
+o-sv
+R9
+vcondlogic
+R1
+R2
+!i10b 1
+!s100 9W[P2aoik?df3j20J9eU@1
+R3
+I<kNRJeY6cCgVT<baaQgEU3
+R4
+S1
+R0
+R5
+8rtl/processor/condlogic.sv
+Frtl/processor/condlogic.sv
+!i122 7
+R10
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 1
+o-sv
+R9
+vcontroller
+R1
+R2
+!i10b 1
+!s100 a9F:@]i_JKOeU]^c1LF;E0
+R3
+I^i7`IdZNF9kFz1_SUS0[_1
+R4
+S1
+R0
+R5
+8rtl/processor/controller.sv
+Frtl/processor/controller.sv
+!i122 7
+L0 1 15
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 1
+o-sv
+R9
+vdatapath
+R1
+R2
+!i10b 1
+!s100 [l=X7X^hj[]b_bF3NVbCh1
+R3
+IPVTDa7B?m3nLbHdHUJnHB3
+R4
+S1
+R0
+R5
+8rtl/processor/datapath.sv
+Frtl/processor/datapath.sv
+!i122 7
+R12
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 1
+o-sv
+R9
+vdecoder
+R1
+R2
+!i10b 1
+!s100 Q54IXeiE=Hg>Lzge;enP?3
+R3
+IWRJ=P9cCk[a80Q^X0f6_=0
+R4
+S1
+R0
+R5
+8rtl/processor/decoder.sv
+Frtl/processor/decoder.sv
+!i122 7
+L0 1 55
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 1
+o-sv
+R9
+vdmem
+R1
+R2
+!i10b 1
+!s100 2Xkc80M4>R2V4V7A?;U413
+R3
+Ieg@<BeB0ZhlZP]O;BU=TN3
+R4
+S1
+R0
+R5
+8rtl/common/dmem.sv
+Frtl/common/dmem.sv
+!i122 7
+L0 1 12
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 1
+o-sv
+R9
+vextend
+R1
+R2
+!i10b 1
+!s100 58J?dKD[gU24=ilT=IP:22
+R3
+IaQO^g4Z1M73NgJ]Lka3PB1
+R4
+S1
+R0
+R5
+8rtl/processor/extend.sv
+Frtl/processor/extend.sv
+!i122 7
+L0 1 14
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 1
+o-sv
+R9
+vflopenr
+R1
+R2
+!i10b 1
+!s100 0chFif4S]eY7Z_LJKgkkM1
+R3
+Ik1hgV8=>GNn59^[ja0mR?0
+R4
+S1
+R0
+R5
+8rtl/common/flopenr.sv
+Frtl/common/flopenr.sv
+!i122 7
+Z13 L0 1 9
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 1
+o-sv
+R9
+vflopr
+R1
+R2
+!i10b 1
+!s100 Y=HZ65:VhKgSziMdA]6kT1
+R3
+I=0K=5@>N_o=Ko8EEBe2;M0
+R4
+S1
+R0
+R5
+8rtl/common/flopr.sv
+Frtl/common/flopr.sv
+!i122 7
+R13
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 1
+o-sv
+R9
+vimem
+R1
+R2
+!i10b 1
+!s100 e0EDY[o=_cge4A]EHB]j?0
+R3
+IBkN3omR?@TgW36<Gjf:T60
+R4
+S1
+R0
+R5
+8rtl/common/imem.sv
+Frtl/common/imem.sv
+!i122 7
+L0 1 10
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 1
+o-sv
+R9
+vmux2
+R1
+R2
+!i10b 1
+!s100 >;o5VfD?]<eiezaV2PV[:2
+R3
+I;EH:dG8M];z34D7KPNiiT2
+R4
+S1
+R0
+R5
+8rtl/common/mux2.sv
+Frtl/common/mux2.sv
+!i122 7
+L0 1 7
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 1
+o-sv
+R9
+vregfile
+R1
+R2
+!i10b 1
+!s100 I63:39Uo@zBHonADn6<nH1
+R3
+ISJ8L?nLfj0Kfz@Lzn?k_L2
+R4
+S1
+R0
+R5
+8rtl/common/regfile.sv
+Frtl/common/regfile.sv
+!i122 7
+L0 1 13
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 1
+o-sv
+R9
+vtb_control_cpu
+R1
+R2
+!i10b 1
+!s100 4QIQ>Ab85LQmKl>37YLoQ1
+R3
+IMRoRi3:e@G]^V7R<DjSaZ0
+R4
+S1
+R0
+Z14 w1795257198
+8sim/tb_control_cpu.sv
+Fsim/tb_control_cpu.sv
+!i122 7
+L0 2 49
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 1
+o-sv
+R9
+vtb_datapath
+R1
+!s110 1795452176
+!i10b 1
+!s100 hm7meP=i?zBiCVB<zCOQ<3
+R3
+Il98;z_6<LPKklzic4R5VZ3
+R4
+S1
+R0
+R14
+8sim/tb_datapath.sv
+Fsim/tb_datapath.sv
+!i122 6
+L0 2 45
+R6
+r1
+!s85 0
+31
+!s108 1795452175.000000
+!s107 sim/tb_datapath.sv|rtl/top.sv|rtl/processor/extend.sv|rtl/processor/decoder.sv|rtl/processor/datapath.sv|rtl/processor/controller.sv|rtl/processor/condlogic.sv|rtl/processor/condcheck.sv|rtl/processor/arm.sv|rtl/common/regfile.sv|rtl/common/mux2.sv|rtl/common/imem.sv|rtl/common/flopr.sv|rtl/common/flopenr.sv|rtl/common/dmem.sv|rtl/common/alu.sv|
+!s90 -reportprogress|300|-sv|rtl/common/alu.sv|rtl/common/dmem.sv|rtl/common/flopenr.sv|rtl/common/flopr.sv|rtl/common/imem.sv|rtl/common/mux2.sv|rtl/common/regfile.sv|rtl/processor/arm.sv|rtl/processor/condcheck.sv|rtl/processor/condlogic.sv|rtl/processor/controller.sv|rtl/processor/datapath.sv|rtl/processor/decoder.sv|rtl/processor/extend.sv|rtl/top.sv|sim/tb_datapath.sv|
+!i113 1
+o-sv
+R9
+vtb_top
+R1
+!s110 1795450121
+!i10b 1
+!s100 W3zNWIM9Re>5j>Y?iMH@S3
+R3
+IadNQeJCB;Wl26DR3:ShBK1
+R4
+S1
+R0
+R14
+8sim/tb_top.sv
+Fsim/tb_top.sv
+!i122 0
+L0 2 61
+R6
+r1
+!s85 0
+31
+!s108 1795450121.000000
+!s107 sim/tb_top.sv|rtl/top.sv|rtl/processor/extend.sv|rtl/processor/decoder.sv|rtl/processor/datapath.sv|rtl/processor/controller.sv|rtl/processor/condlogic.sv|rtl/processor/condcheck.sv|rtl/processor/arm.sv|rtl/common/regfile.sv|rtl/common/mux2.sv|rtl/common/imem.sv|rtl/common/flopr.sv|rtl/common/flopenr.sv|rtl/common/dmem.sv|rtl/common/alu.sv|
+!s90 -reportprogress|300|-sv|rtl/common/alu.sv|rtl/common/dmem.sv|rtl/common/flopenr.sv|rtl/common/flopr.sv|rtl/common/imem.sv|rtl/common/mux2.sv|rtl/common/regfile.sv|rtl/processor/arm.sv|rtl/processor/condcheck.sv|rtl/processor/condlogic.sv|rtl/processor/controller.sv|rtl/processor/datapath.sv|rtl/processor/decoder.sv|rtl/processor/extend.sv|rtl/top.sv|sim/tb_top.sv|
+!i113 1
+o-sv
+R9
+vtb_units
+R1
+!s110 1795452155
+!i10b 1
+!s100 9z4DKU9WTecA2jAoRmbk;2
+R3
+I7I5TF>0mch@C4TVV33[jK1
+R4
+S1
+R0
+R14
+8sim/tb_units.sv
+Fsim/tb_units.sv
+!i122 5
+L0 2 54
+R6
+r1
+!s85 0
+31
+!s108 1795452155.000000
+!s107 sim/tb_units.sv|rtl/top.sv|rtl/processor/extend.sv|rtl/processor/decoder.sv|rtl/processor/datapath.sv|rtl/processor/controller.sv|rtl/processor/condlogic.sv|rtl/processor/condcheck.sv|rtl/processor/arm.sv|rtl/common/regfile.sv|rtl/common/mux2.sv|rtl/common/imem.sv|rtl/common/flopr.sv|rtl/common/flopenr.sv|rtl/common/dmem.sv|rtl/common/alu.sv|
+!s90 -reportprogress|300|-sv|rtl/common/alu.sv|rtl/common/dmem.sv|rtl/common/flopenr.sv|rtl/common/flopr.sv|rtl/common/imem.sv|rtl/common/mux2.sv|rtl/common/regfile.sv|rtl/processor/arm.sv|rtl/processor/condcheck.sv|rtl/processor/condlogic.sv|rtl/processor/controller.sv|rtl/processor/datapath.sv|rtl/processor/decoder.sv|rtl/processor/extend.sv|rtl/top.sv|sim/tb_units.sv|
+!i113 1
+o-sv
+R9
+vtop
+R1
+R2
+!i10b 1
+!s100 eInmCPjGNE=BI:_4kLC113
+R3
+IehHh9VIDo7n931AK;hO8_2
+R4
+S1
+R0
+R5
+8rtl/top.sv
+Frtl/top.sv
+!i122 7
+L0 1 11
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 1
+o-sv
+R9

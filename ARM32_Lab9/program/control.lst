@@ -1,0 +1,24 @@
+00 E04F000F SUB    R0,R15,R15
+04 E2801005 ADD    R1,R0,#5
+08 E2512005 SUBS   R2,R1,#5       ; Z=C=1
+0C 12911001 ADDSNE R1,R1,#1       ; fail condition; flags and R1 hold
+10 15801000 STRNE  R1,[R0]        ; no write
+14 1A000000 BNE    0x1C           ; fall through
+18 E2113002 ANDS   R3,R1,#2       ; 0, keep C=1
+1C E3914002 ORRS   R4,R1,#2       ; 7, keep C=1
+20 1A000000 BNE    0x28           ; forward branch
+24 E5801000 STR    R1,[R0]        ; skipped
+28 E280F030 ADD    R15,R0,#48     ; write PC
+2C E5801000 STR    R1,[R0]        ; skipped
+30 E2805044 ADD    R5,R0,#68
+34 E580506C STR    R5,[R0,#108]
+38 E590F06C LDR    R15,[R0,#108]  ; load PC=68
+3C E5801000 STR    R1,[R0]        ; skipped
+40 E5801000 STR    R1,[R0]        ; skipped
+44 E1A01000 MOV    R1,R0          ; unsupported
+48 E2801101 ADD    R1,R0,#rotated ; unsupported encoding
+4C EB000000 BL     next           ; unsupported
+50 E5C01000 STRB   R1,[R0]        ; unsupported
+54 E1836004 ORR    R6,R3,R4
+58 E5806070 STR    R6,[R0,#112]
+5C EAFFFFFE B      0x5C

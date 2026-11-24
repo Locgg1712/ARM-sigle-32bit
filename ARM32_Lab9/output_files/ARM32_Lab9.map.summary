@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Mon Nov 23 22:58:06 2026
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : ARM32_Lab9
+Top-level Entity Name : top
+Family : MAX 10
+Total logic elements : 4,384
+    Total combinational functions : 2,142
+    Dedicated logic registers : 2,336
+Total registers : 2336
+Total pins : 67
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

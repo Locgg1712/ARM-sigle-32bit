@@ -1,0 +1,427 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/ARM sigle 32bit/ARM32_Lab9/simulation/modelsim
+valu
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1795449964
+!i10b 1
+!s100 :>0>L6C@HH^hG:P[l]`Zj3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I[IUFh`^5YDl`jLD1E`>Fc1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+Z4 w1795257116
+8D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/alu.sv
+FD:/ARM sigle 32bit/ARM32_Lab9/rtl/common/alu.sv
+!i122 0
+L0 1 24
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1795449964.000000
+!s107 D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/alu.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ARM sigle 32bit/ARM32_Lab9/rtl/common|D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/alu.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work {+incdir+D:/ARM sigle 32bit/ARM32_Lab9/rtl/common}
+Z8 tCvgOpt 0
+varm
+R1
+Z9 !s110 1795449966
+!i10b 1
+!s100 Ul0j]`;zLL?<[8XDoZV=l2
+R2
+I2znfOKDeYI?AI8i5inmoL2
+R3
+S1
+R0
+R4
+8D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/arm.sv
+FD:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/arm.sv
+!i122 7
+Z10 L0 1 18
+R5
+r1
+!s85 0
+31
+Z11 !s108 1795449966.000000
+!s107 D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/arm.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor|D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/arm.sv|
+!i113 1
+R6
+Z12 !s92 -sv -work work {+incdir+D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor}
+R8
+vcondcheck
+R1
+Z13 !s110 1795449967
+!i10b 1
+!s100 ZQ]SQRl?ZDi?OMcblWgG>0
+R2
+IF2zYzHDdJV2P^_HDVcWL_2
+R3
+S1
+R0
+R4
+8D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/condcheck.sv
+FD:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/condcheck.sv
+!i122 8
+Z14 L0 1 27
+R5
+r1
+!s85 0
+31
+Z15 !s108 1795449967.000000
+!s107 D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/condcheck.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor|D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/condcheck.sv|
+!i113 1
+R6
+R12
+R8
+vcondlogic
+R1
+R13
+!i10b 1
+!s100 9W[P2aoik?df3j20J9eU@1
+R2
+Id<g`gc?zZI=R1`;Tc`SRh0
+R3
+S1
+R0
+R4
+8D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/condlogic.sv
+FD:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/condlogic.sv
+!i122 9
+R10
+R5
+r1
+!s85 0
+31
+R15
+!s107 D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/condlogic.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor|D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/condlogic.sv|
+!i113 1
+R6
+R12
+R8
+vcontroller
+R1
+R13
+!i10b 1
+!s100 a9F:@]i_JKOeU]^c1LF;E0
+R2
+IeZeYiT[;I5XdnllRjJNI=3
+R3
+S1
+R0
+R4
+8D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/controller.sv
+FD:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/controller.sv
+!i122 10
+L0 1 15
+R5
+r1
+!s85 0
+31
+R15
+!s107 D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/controller.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor|D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/controller.sv|
+!i113 1
+R6
+R12
+R8
+vdatapath
+R1
+Z16 !s110 1795449968
+!i10b 1
+!s100 [l=X7X^hj[]b_bF3NVbCh1
+R2
+I9:ce7P<NVXJNCd[:67KPX1
+R3
+S1
+R0
+R4
+8D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/datapath.sv
+FD:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/datapath.sv
+!i122 11
+R14
+R5
+r1
+!s85 0
+31
+Z17 !s108 1795449968.000000
+!s107 D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/datapath.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor|D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/datapath.sv|
+!i113 1
+R6
+R12
+R8
+vdecoder
+R1
+R16
+!i10b 1
+!s100 Q54IXeiE=Hg>Lzge;enP?3
+R2
+IQzU7Bg]ZHWe?jb_;:VQSP3
+R3
+S1
+R0
+R4
+8D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/decoder.sv
+FD:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/decoder.sv
+!i122 12
+L0 1 55
+R5
+r1
+!s85 0
+31
+R17
+!s107 D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/decoder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor|D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/decoder.sv|
+!i113 1
+R6
+R12
+R8
+vdmem
+R1
+Z18 !s110 1795449965
+!i10b 1
+!s100 2Xkc80M4>R2V4V7A?;U413
+R2
+IEN0<I5`]haY0KOUnG@m9h2
+R3
+S1
+R0
+R4
+8D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/dmem.sv
+FD:/ARM sigle 32bit/ARM32_Lab9/rtl/common/dmem.sv
+!i122 1
+L0 1 12
+R5
+r1
+!s85 0
+31
+Z19 !s108 1795449965.000000
+!s107 D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/dmem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ARM sigle 32bit/ARM32_Lab9/rtl/common|D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/dmem.sv|
+!i113 1
+R6
+R7
+R8
+vextend
+R1
+R16
+!i10b 1
+!s100 58J?dKD[gU24=ilT=IP:22
+R2
+I3DaS_0>9dQd`[Wf0I6[Mj1
+R3
+S1
+R0
+R4
+8D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/extend.sv
+FD:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/extend.sv
+!i122 13
+L0 1 14
+R5
+r1
+!s85 0
+31
+R17
+!s107 D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/extend.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor|D:/ARM sigle 32bit/ARM32_Lab9/rtl/processor/extend.sv|
+!i113 1
+R6
+R12
+R8
+vflopenr
+R1
+R18
+!i10b 1
+!s100 0chFif4S]eY7Z_LJKgkkM1
+R2
+ITEelJhb:ITg1=c]M=IHgz0
+R3
+S1
+R0
+R4
+8D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/flopenr.sv
+FD:/ARM sigle 32bit/ARM32_Lab9/rtl/common/flopenr.sv
+!i122 2
+Z20 L0 1 9
+R5
+r1
+!s85 0
+31
+R19
+!s107 D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/flopenr.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ARM sigle 32bit/ARM32_Lab9/rtl/common|D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/flopenr.sv|
+!i113 1
+R6
+R7
+R8
+vflopr
+R1
+R18
+!i10b 1
+!s100 Y=HZ65:VhKgSziMdA]6kT1
+R2
+IcLW6L<jY:@35BBWEm4T[R0
+R3
+S1
+R0
+R4
+8D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/flopr.sv
+FD:/ARM sigle 32bit/ARM32_Lab9/rtl/common/flopr.sv
+!i122 3
+R20
+R5
+r1
+!s85 0
+31
+R19
+!s107 D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/flopr.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ARM sigle 32bit/ARM32_Lab9/rtl/common|D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/flopr.sv|
+!i113 1
+R6
+R7
+R8
+vimem
+R1
+R9
+!i10b 1
+!s100 e0EDY[o=_cge4A]EHB]j?0
+R2
+IoL1ob4_`naz`b2UVXRz:J1
+R3
+S1
+R0
+R4
+8D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/imem.sv
+FD:/ARM sigle 32bit/ARM32_Lab9/rtl/common/imem.sv
+!i122 4
+L0 1 10
+R5
+r1
+!s85 0
+31
+R19
+!s107 D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/imem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ARM sigle 32bit/ARM32_Lab9/rtl/common|D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/imem.sv|
+!i113 1
+R6
+R7
+R8
+vmux2
+R1
+R9
+!i10b 1
+!s100 >;o5VfD?]<eiezaV2PV[:2
+R2
+I`ilmT8g84>4@LeDokz]aU3
+R3
+S1
+R0
+R4
+8D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/mux2.sv
+FD:/ARM sigle 32bit/ARM32_Lab9/rtl/common/mux2.sv
+!i122 5
+L0 1 7
+R5
+r1
+!s85 0
+31
+R11
+!s107 D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/mux2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ARM sigle 32bit/ARM32_Lab9/rtl/common|D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/mux2.sv|
+!i113 1
+R6
+R7
+R8
+vregfile
+R1
+R9
+!i10b 1
+!s100 I63:39Uo@zBHonADn6<nH1
+R2
+IRPoNzmH]ShDk0I@llo_lY2
+R3
+S1
+R0
+R4
+8D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/regfile.sv
+FD:/ARM sigle 32bit/ARM32_Lab9/rtl/common/regfile.sv
+!i122 6
+L0 1 13
+R5
+r1
+!s85 0
+31
+R11
+!s107 D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/regfile.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ARM sigle 32bit/ARM32_Lab9/rtl/common|D:/ARM sigle 32bit/ARM32_Lab9/rtl/common/regfile.sv|
+!i113 1
+R6
+R7
+R8
+vtb_top
+R1
+Z21 !s110 1795449969
+!i10b 1
+!s100 W3zNWIM9Re>5j>Y?iMH@S3
+R2
+Ii>Xe6VJ36<H]O<hB;UClD1
+R3
+S1
+R0
+w1795257198
+8D:/ARM sigle 32bit/ARM32_Lab9/sim/tb_top.sv
+FD:/ARM sigle 32bit/ARM32_Lab9/sim/tb_top.sv
+!i122 15
+L0 2 61
+R5
+r1
+!s85 0
+31
+Z22 !s108 1795449969.000000
+!s107 D:/ARM sigle 32bit/ARM32_Lab9/sim/tb_top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ARM sigle 32bit/ARM32_Lab9/sim|D:/ARM sigle 32bit/ARM32_Lab9/sim/tb_top.sv|
+!i113 1
+R6
+!s92 -sv -work work {+incdir+D:/ARM sigle 32bit/ARM32_Lab9/sim}
+R8
+vtop
+R1
+R21
+!i10b 1
+!s100 eInmCPjGNE=BI:_4kLC113
+R2
+I8URoKcOToc?<6gze5Z=Yb0
+R3
+S1
+R0
+R4
+8D:/ARM sigle 32bit/ARM32_Lab9/rtl/top.sv
+FD:/ARM sigle 32bit/ARM32_Lab9/rtl/top.sv
+!i122 14
+L0 1 11
+R5
+r1
+!s85 0
+31
+R22
+!s107 D:/ARM sigle 32bit/ARM32_Lab9/rtl/top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ARM sigle 32bit/ARM32_Lab9/rtl|D:/ARM sigle 32bit/ARM32_Lab9/rtl/top.sv|
+!i113 1
+R6
+!s92 -sv -work work {+incdir+D:/ARM sigle 32bit/ARM32_Lab9/rtl}
+R8
